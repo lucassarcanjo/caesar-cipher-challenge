@@ -44,7 +44,8 @@ function caesarShift (str, count) {
 async function submitCodenationTest(data_obj, my_token) {
     function getFormData(object) {
         const formData = new FormData();
-        Object.keys(object).forEach(key => formData.append(key, object[key]));
+        const answer = fs.createReadStream('./answer.json');
+        formData.append('answer', answer);
     
         return formData;
     }
