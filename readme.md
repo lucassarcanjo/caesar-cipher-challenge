@@ -1,6 +1,6 @@
 # Caesar Cipher Challenge
 
-That is my solution to (Codenation Challenge)[https://www.codenation.dev/] using NodeJS.
+That is my solution to [Codenation Challenge](https://www.codenation.dev/) using NodeJS.
 
 ## Caesar Cipher
 
@@ -26,3 +26,11 @@ The final structure to submiss at Codenation API is:
     "resumo_criptografico": ""
 }
 ```
+
+## Execution
+
+To run the code on your machine: 
+
+1. create a `.env` file with an `API_TOKEN` field;
+2. run `yarn install` or `npm install` to install dependencies;
+3. run `yarn start` or `npm start` to run the program.
